@@ -8,6 +8,7 @@
 	background-color: #FFE4C4;
 	z-index: 3;
 	padding-bottom: 40px;
+	display: block;
 	}
 	
 .menu-mini{
@@ -53,7 +54,7 @@ tr:nth-child(even) {
 		display: none;
 	}
 
-.nav-bar-mobile{
+.mobile-menu{
 	display: none;
 }
 
@@ -98,7 +99,7 @@ tr:nth-child(even) {
 		background-color: rgba(	0,0,0,0.8 ); 
 	}
 	
-	.nav-bar-mobile{
-		display: block;
+	.mobile-menu{
+		display: inline;
 	}
 }
