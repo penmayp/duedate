@@ -15,7 +15,7 @@
 	display: none;
 }
 
-button{
+.menu button{
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -75,16 +75,6 @@ tr:nth-child(even) {
 	
 	#main-menu-mini{
 		display: none;
-		position: fixed;
-		border-radius: 50px;
-		width: 90%;
-		height: 80%;
-		background-image:url('./images/img_wood.jpg');
-		z-index: 40;
-		background-repeat: no-repeat;
-		
-		margin-top: 10%;
-		top: 0;
 	}
 	
 	#overlay{
@@ -100,6 +90,40 @@ tr:nth-child(even) {
 	}
 	
 	.mobile-menu{
-		display: inline;
+		display: block;
+		margin-top: -60px;
+		position: fixed;
+		width: 150%;
+		margin-left: -80px;
+		z-index: 30;
+	}
+	
+	.mobile-menu button{
+		background-color: rgba(	160,82,45,0.8 );
+		text-align: center;
+	}
+	.mobile-menu button:hover{
+		background-color: rgba(	160,82,45,0.3 ); 
+		color: black;
+	}
+	.mobutt-menu{
+		color: black;
+		text-align: center;
+		padding-left: 30%;
+	}
+	.menu-minobo{
+		width: 100%;
+	}
+	.menu-mob-bg{
+		background: #FFE4C4;
+	}
+	.menu-outbord{
+		width: 100%;
+		height: 300px;
+		padding: 15%;
+		padding-right: 50%;
+		padding-top: 5%;
+		background: #FFE4C4;
+		
 	}
 }
