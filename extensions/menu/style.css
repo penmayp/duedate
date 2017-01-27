@@ -44,8 +44,6 @@ table {
 }
 
 
-
-
 tr:nth-child(even) {
     background-color: #dddddd;
 }
@@ -126,4 +124,6 @@ tr:nth-child(even) {
 		background: #FFE4C4;
 		
 	}
+	
+
 }

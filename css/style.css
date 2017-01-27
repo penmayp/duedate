@@ -87,7 +87,16 @@ h4{
 .linespace{
 	height: 20px;
 }
-	
+
+.devcred{
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	margin-top: 20px;
+	margin-left: 20%;
+	margin-right: 30%;
+	padding-left: 10%;
+	}
 
 @media screen and (max-width: 980px) {
 	body{
@@ -106,6 +115,18 @@ h4{
 		border-radius: 15px;	
 		margin-top: 20px;
 	}
+	
+	.devcred{
+		border-style: solid;
+		border-width: 2px;
+		border-color: black;
+		margin-top: 5px;
+		margin-left: 10%;
+		margin-right: 10%;
+		background: rgba(255,255,255,0.8);
+		
+		padding-left: 10%;
+		}
 }
 
 
